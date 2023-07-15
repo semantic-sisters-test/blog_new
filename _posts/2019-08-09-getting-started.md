@@ -14,7 +14,7 @@ Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installat
 
 ## Installation
 
-### Creating a New Site
+### Creating a New
 
 There are two ways to create a new repository for this theme:
 
