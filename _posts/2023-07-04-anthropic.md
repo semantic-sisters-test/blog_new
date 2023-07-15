@@ -1,14 +1,14 @@
 ---
-title: אבירם היה פה
+title: "אנטרופיק: AI חוקתי, מניקור ומה שביניהם 🤖"
 author: aviram
 date: 2023-07-04 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [Anthropic, GPT]
+tags: [LLMs]
 ---
 
-# אנטרופיק: AI חוקתי, מניקור ומה שביניהם 🤖
 שלום!
-בבלוג זה ננסה לעקוב אחר ההתפתחויות המהירות בתחום ה- NLP, פוסט אחד בכל פעם! הפעם נשתף איך בחרנו שם לבלוג באמצעות אנטרופיק.
+בבלוג זה ננסה לעקוב אחר ההתפתחויות המהירות בתחום ה- NLP, פוסט אחד בכל פעם!
+הפעם נשתף איך בחרנו את שם הבלוג הזה באמצעות **אנטרופיק**.
 ## רקע
 אנטרופיק היא חברת מחקר שפיתחה מודל שפה גדול הנקרא Claude (קלוד), מתחרה ל- ChatGPT, שהוא לכאורה בטיחותי יותר. את נושא הבטיחות עיגנה Anthropic תחת הקונספט של Constitutional AI, ובעברית - "AI חוקתי״. השימוש במנוח ״חוקה״ בא להדגיש את שהמודל צריך להיות כפוף לאוסף עקרונות מסויים.
  
@@ -38,7 +38,6 @@ print(resp['completion'])
 ```
 
 הפרומפט הראשון ששלחנו לקלוד היה בנוסח הבא
-(לתקן פה את הדקדוק)
 
 ```python
 prompt = "Please suggest data science blog names for two female data scientists"
@@ -47,31 +46,21 @@ prompt = "Please suggest data science blog names for two female data scientists"
 הופתענו לקבל תשובות מגניבות ומקוריות, מוזמנות להתרשם מהרשימה🍿
 
 ```
-
  Here are some suggestions for data science blog names for two female data scientists:
 
-• The Data Duo - Simple but captures that it's two data scientists running the blog. 
+• The Data Duo - Simple but captures that it's two data scientists running the blog.
 
-• Analytic Avengers - A play on the superhero team, The Avengers. Highlights analysis and data science skills. 
+• Algorithm Amazons - Amazons highlights powerful female figures, paired with algorithm shows the data science and machine learning focus.
 
-• Algorithm Amazons - Amazons highlights powerful female figures, paired with algorithm shows the data science and machine learning focus. 
+• Codin' Chicks - Play on coding combined with chicks, could be a lighthearted brand for two female data scientists.
 
-• ML Mavens - Mavens means experts, paired with ML for machine learning. Conveys knowledgeable data scientists. 
-
-• Dataminded Duet - Rhyming pair emphasizing mining insights from data. 
-
-• Codin' Chicks - Play on coding combined with chicks, could be a lighthearted brand for two female data scientists. 
-
-• Binary BFFs - BFFs is a popular acronym for "best friends forever", combined with binary the digital data focus. 
-
-• Modeling Minds - Simple name focusing on building models, a key part of data science and machine learning work. 
+• Binary BFFs - BFFs is a popular acronym for "best friends forever", combined with binary the digital data focus.
 
 • Glamorous Geeks - Blends technical skills of geeks with glamorous to add a feminine twist. 
 
 • AI Allies - Short name showing partnership as allies, with AI highlighting their machine learning capabilities.
 
 Does any of these options resonate with you? I can provide some additional suggestions if those do not quite fit.
-
 ```
 
 בהמשך ביצענו prompt engineering כדי שנקבל שמות לבלוג שהם gender-aware
